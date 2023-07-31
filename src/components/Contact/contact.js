@@ -5,6 +5,31 @@ import logo from '../img/creatorLogo.png';
 ----------------------*/
 
 export default function Contact() {
+	const handleSubmit = async (event) => {
+		event.preventDefault();
+
+		const formData = new FormData(event.target);
+		formData.append('service_id', 'service_35apefo');
+		formData.append('template_id', 'template_atrbop7');
+		formData.append('user_id', 'B8mYrvXrfKfNHWtr5');
+
+		try {
+			const response = await fetch('https://api.emailjs.com/api/v1.0/email/send-form', {
+				method: 'POST',
+				body: formData,
+			});
+
+			if (response.ok) {
+				alert('Your mail is sent!');
+			} else {
+				const errorData = await response.json();
+				alert('Oops... ' + JSON.stringify(errorData));
+			}
+		} catch (error) {
+			alert('Oops... ' + error.message);
+		}
+	};
+
 	return (
 		<>
 			<section
@@ -23,8 +48,8 @@ export default function Contact() {
 						<div className="col-lg-6">
 							<div className="contact-form">
 								<h6>Get in touch</h6>
-								<p className="lead">I would love to hear from you.</p>
-								<form id="contact-form" method="POST">
+								<p className="lead">I would love to hear from you!</p>
+								<form id="contact-form myForm" method="POST" onSubmit={handleSubmit}>
 									<div className="row gx-3 gy-4">
 										<div className="col-md-6">
 											<div className="form-group">
