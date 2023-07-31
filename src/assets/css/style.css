@@ -152,10 +152,10 @@ Version:    1.0
       box-shadow: 5px 5px 0 -2px #373737; }
 
 .bg-gray {
-  background-color: rgba(254, 196, 72, 0.1); }
+  background-color: #fff; }
 
 .bg-dark {
-  background-color: #373737 !important; }
+  background-color: #BBC5AA !important; }
 
 .bg-1 {
   background-color: #88849A; }
@@ -330,7 +330,7 @@ main {
   position: relative;
   overflow: hidden;
   padding-top: 180px;
-  padding-bottom: 100px; }
+  padding-bottom: 0px; }
   @media (max-width: 767px) {
     .home-section {
       padding-top: 120px;
@@ -342,7 +342,7 @@ main {
     bottom: 47%;
     left: 48%;
     right: -16%;
-    background: rgba(222, 205, 245, 0.4);
+    background: rgba(187, 197, 170, 0.4);
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     border-radius: 50px; }

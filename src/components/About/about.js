@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll';
+import aboutImage from '../img/aboutImage.png';
 
 /*--------------------
 * About Section
@@ -10,7 +11,7 @@ export default function About() {
 				<div className="container">
 					<div className="row gy-5 align-items-center">
 						<div className="col-lg-6 text-center">
-							<img src="img/personalPhoto.png" title="Banner" alt="Banner" />
+							<img src={aboutImage} title="Banner" alt="Banner" />
 						</div>
 						<div className="col-lg-6 ps-lg-5">
 							<div className="about-text">
@@ -22,7 +23,7 @@ export default function About() {
 								</p>
 								<div className="row pt-2">
 									<div className="col-6 col-md-4">
-										<h5>30+</h5>
+										<h5>20+</h5>
 										<span>Projects Completed</span>
 									</div>
 								</div>
@@ -30,7 +31,7 @@ export default function About() {
 									<Link className="px-btn px-btn-theme me-4" to="contactus">
 										Contact Me
 									</Link>
-									<Link className="px-btn px-btn-dark" to="portfolio">
+									<Link className="px-btn px-btn-dark" to="work">
 										Portfolio
 									</Link>
 								</div>

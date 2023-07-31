@@ -1,3 +1,5 @@
+import logo from '../img/creatorLogo.png';
+
 /*--------------------
 * Contact Section
 ----------------------*/
@@ -62,7 +64,7 @@ export default function Contact() {
 						</div>
 						<div className="col-lg-5 ms-auto col-xl-4">
 							<div className="pb-5">
-								<img className="w-100" src="/img/creatorLogo.png" title="Logo" alt="logo" />
+								<img className="w-100" src={logo} title="Logo" alt="logo" />
 							</div>
 							<ul className="contact-infos">
 								<li>
