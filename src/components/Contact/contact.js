@@ -54,19 +54,19 @@ export default function Contact() {
 										<div className="col-md-6">
 											<div className="form-group">
 												<label className="form-label">First name</label>
-												<input name="Name" id="name" placeholder="Name *" className="form-control" type="text" />
+												<input name="from_name" id="from_name" placeholder="Name *" className="form-control" type="text" />
 											</div>
 										</div>
 										<div className="col-md-6">
 											<div className="form-group">
 												<label className="form-label">Your Email</label>
-												<input name="Email" id="email" placeholder="Email *" className="form-control" type="email" />
+												<input name="reply_to" id="reply_to" placeholder="Email *" className="form-control" type="email" />
 											</div>
 										</div>
 										<div className="col-12">
 											<div className="form-group">
 												<label className="form-label">Subject</label>
-												<input name="Subject" id="subject" placeholder="Subject *" className="form-control" type="text" />
+												<input name="subject" id="subject" placeholder="Subject *" className="form-control" type="text" />
 											</div>
 										</div>
 										<div className="col-md-12">
@@ -77,7 +77,7 @@ export default function Contact() {
 										</div>
 										<div className="col-md-12">
 											<div className="send">
-												<button className="px-btn px-btn-theme2" type="button" value="Send">
+												<button className="px-btn px-btn-theme2" type="submit" value="Send">
 													{' '}
 													Send Message
 												</button>
