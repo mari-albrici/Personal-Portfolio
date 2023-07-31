@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll';
+import myLogo from '/Users/marialbrici/Desktop/Personal-Portfolio/src/assets/img/creatorLogo.png';
 
 /*--------------------
 * Header Menu
@@ -17,31 +18,35 @@ function Menu(props) {
 * Header
 ----------------------*/
 export default function Header() {
-	const header_menus = [
+	const header_menus_left = [
 		{ id: 0, name: 'Home', scroll_link: 'home' },
 		{ id: 1, name: 'Skills', scroll_link: 'skill' },
+	];
+
+	const header_menus_right = [
 		{ id: 2, name: 'Portfolio', scroll_link: 'work' },
 		{ id: 3, name: 'Contact', scroll_link: 'contactus' },
 	];
+
 	return (
 		<>
 			<header className="main-header">
 				<nav className="navbar header-nav navbar-expand-lg one-page-nav">
 					<div className="container">
-						<Link className="navbar-brand" smooth={true} to="home">
-							<img src="img/creatorLogo.png" title="Logo" alt="Logo" width={150} />
-						</Link>
 						<div className="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
 							<ul className="navbar-nav mx-auto">
-								{header_menus.map((val, i) => {
+								{header_menus_left.map((val, i) => {
 									return <Menu key={i} id={val.id} name={val.name} link={val.scroll_link} />;
 								})}
 							</ul>
-						</div>
-						<div className="ms-auto d-none d-lg-block">
-							<Link className="px-btn px-btn-theme" data-scroll-nav="4" smooth={true} to="contactus">
-								Contact Now
+							<Link className="navbar-brand" smooth={true} to="home">
+								<img src={myLogo} title="Logo" alt="Logo" width={200} />
 							</Link>
+							<ul className="navbar-nav mx-auto">
+								{header_menus_right.map((val, i) => {
+									return <Menu key={i} id={val.id} name={val.name} link={val.scroll_link} />;
+								})}
+							</ul>
 						</div>
 					</div>
 				</nav>
