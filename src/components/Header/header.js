@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import myLogo from '/Users/marialbrici/Desktop/Personal-Portfolio/src/assets/img/creatorLogo.png';
+import myLogo from '../img/creatorLogo.png';
 
 /*--------------------
 * Header Menu
