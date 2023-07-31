@@ -3,8 +3,6 @@ import previewFedoan from '../img/previewFedoan.png';
 import previewBettoni from '../img/previewBettoni.png';
 import previewCapstone from '../img/previewCapstone.png';
 import previewNetflix from '../img/previewNetflix.png';
-import previewSpotify from '../img/previewSpotify.png';
-import previewCalcolatrice from '../img/previewCalcolatrice.png';
 /*--------------------
 * Work Section
 ----------------------*/
