@@ -97,7 +97,7 @@ Version:    1.0
     right: 0px; } }
 
 .footer {
-  background-color: #373737;
+  background-color: #BBC5AA;
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -155,7 +155,7 @@ Version:    1.0
   background-color: #fff; }
 
 .bg-dark {
-  background-color: #BBC5AA !important; }
+  background-color: #2B3121 !important; }
 
 .bg-1 {
   background-color: #88849A; }
