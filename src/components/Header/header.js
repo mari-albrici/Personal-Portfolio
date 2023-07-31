@@ -40,7 +40,7 @@ export default function Header() {
 								})}
 							</ul>
 							<Link className="navbar-brand" smooth={true} to="home">
-								<img src={myLogo} title="Logo" alt="Logo" width={150} />
+								<img src={myLogo} title="Logo" alt="Logo" width={110} />
 							</Link>
 							<ul className="navbar-nav mx-auto">
 								{header_menus_right.map((val, i) => {
