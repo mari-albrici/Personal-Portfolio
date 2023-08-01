@@ -10,17 +10,17 @@ function Footer() {
 				<div className="row align-items-center">
 					<div className="col-md-6 py-2">
 						<div className="nav justify-content-center justify-content-md-start">
-							<Link to="#">
+							<Link to="https://twitter.com/mari_albrici">
 								<i className="fab fa-twitter"></i>
 							</Link>
-							<Link to="#">
+							<Link to="https://www.instagram.com/marialbrici/">
 								<i className="fab fa-instagram"></i>
 							</Link>
-							<Link to="#">
-								<i className="fab fa-linkedin-in"></i>
+							<Link to="https://github.com/mari-albrici">
+								<i className="bi bi-github"></i>
 							</Link>
-							<Link to="#">
-								<i className="fab fa-pinterest"></i>
+							<Link to="https://www.linkedin.com/in/marianna-albrici/">
+								<i className="bi bi-linkedin"></i>
 							</Link>
 						</div>
 					</div>
