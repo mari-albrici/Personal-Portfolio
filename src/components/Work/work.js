@@ -51,9 +51,6 @@ export default function Work() {
 							<div className="col-md-6 col-lg-5">
 								<div className="portfolio-img">
 									<img src={previewFedoan} title="p2" alt="p2" />
-									<a href="https://www.fedoan.com/" className="gallery-link gallery-link-icon">
-										<i className="fas fa-arrow-right"></i>
-									</a>
 								</div>
 							</div>
 							<div className="col-md-6 col-lg-5">
@@ -84,7 +81,11 @@ export default function Work() {
 									<h4>Netflix Clone</h4>
 									<p>I cloned the Netflix website using HTML, CSS and JS.</p>
 									<div className="btn-bar">
-										<a href="https://github.com/mari-albrici/SpaceflightNews-ReactTS-App" className="px-btn px-btn-theme" data-scroll-nav="4">
+										<a
+											href="https://github.com/mari-albrici/fs0123-Marianna-Albrici/tree/main/m2/w2/d5"
+											className="px-btn px-btn-theme"
+											data-scroll-nav="4"
+										>
 											View Code{' '}
 										</a>
 									</div>
@@ -93,9 +94,6 @@ export default function Work() {
 							<div className="col-md-6 col-lg-5">
 								<div className="portfolio-img">
 									<img src={previewNetflix} title="p4" alt="p4" />
-									<a href="https://github.com/mari-albrici/fs0123-Marianna-Albrici/tree/main/m2/w2/d5" className="gallery-link gallery-link-icon">
-										<i className="fas fa-arrow-right"></i>
-									</a>
 								</div>
 							</div>
 						</div>
@@ -104,9 +102,6 @@ export default function Work() {
 							<div className="col-md-6 col-lg-5">
 								<div className="portfolio-img">
 									<img src={previewBettoni} title="p2" alt="p2" />
-									<a href="https://www.bettoniauto.com/" className="gallery-link gallery-link-icon">
-										<i className="fas fa-arrow-right"></i>
-									</a>
 								</div>
 							</div>
 							<div className="col-md-6 col-lg-5">
@@ -120,7 +115,7 @@ export default function Work() {
 										Updates, mailing list and SEO are part of daily management tasks.
 									</p>
 									<div className="btn-bar">
-										<a href="https://www.fedoan.com/" className="px-btn px-btn-theme" data-scroll-nav="4">
+										<a href="https://www.bettoniauto.com/" className="px-btn px-btn-theme" data-scroll-nav="4">
 											View Project{' '}
 										</a>
 									</div>
