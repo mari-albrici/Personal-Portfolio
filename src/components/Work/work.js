@@ -1,4 +1,3 @@
-import { Link } from 'react-scroll';
 import previewFedoan from '../img/previewFedoan.png';
 import previewBettoni from '../img/previewBettoni.png';
 import previewCapstone from '../img/previewCapstone.png';
