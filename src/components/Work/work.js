@@ -23,9 +23,6 @@ export default function Work() {
 							<div className="col-md-6 col-lg-5">
 								<div className="portfolio-img">
 									<img src={previewCapstone} title="Capstone project preview" alt="Capstone project Preview" />
-									<Link to="https://github.com/mari-albrici/CapstoneEpicode-HolidayRentals" className="gallery-link gallery-link-icon">
-										<i className="fas fa-arrow-right"></i>
-									</Link>
 								</div>
 							</div>
 							<div className="col-md-6 col-lg-5">
