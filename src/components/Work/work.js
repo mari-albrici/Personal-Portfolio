@@ -39,20 +39,21 @@ export default function Work() {
 										rentals in a local area.
 									</p>
 									<div className="btn-bar">
-										<Link to="https://github.com/mari-albrici/CapstoneEpicode-HolidayRentals" className="px-btn px-btn-theme" data-scroll-nav="4">
+										<a href="https://github.com/mari-albrici/CapstoneEpicode-HolidayRentals" className="px-btn px-btn-theme" data-scroll-nav="4">
 											View Code{' '}
-										</Link>
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
+						<hr />
 						<div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
 							<div className="col-md-6 col-lg-5">
 								<div className="portfolio-img">
 									<img src={previewFedoan} title="p2" alt="p2" />
-									<Link to="https://www.fedoan.com/" className="gallery-link gallery-link-icon">
+									<a href="https://www.fedoan.com/" className="gallery-link gallery-link-icon">
 										<i className="fas fa-arrow-right"></i>
-									</Link>
+									</a>
 								</div>
 							</div>
 							<div className="col-md-6 col-lg-5">
@@ -66,13 +67,14 @@ export default function Work() {
 										SEO are part of daily management tasks.
 									</p>
 									<div className="btn-bar">
-										<Link to="https://www.fedoan.com/" className="px-btn px-btn-theme" data-scroll-nav="4">
+										<a href="https://www.fedoan.com/" className="px-btn px-btn-theme" data-scroll-nav="4">
 											View Project{' '}
-										</Link>
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
+						<hr />
 						<div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
 							<div className="col-md-6 col-lg-5">
 								<div className="portfolio-text">
@@ -82,28 +84,29 @@ export default function Work() {
 									<h4>Netflix Clone</h4>
 									<p>I cloned the Netflix website using HTML, CSS and JS.</p>
 									<div className="btn-bar">
-										<Link to="https://github.com/mari-albrici/SpaceflightNews-ReactTS-App" className="px-btn px-btn-theme" data-scroll-nav="4">
+										<a href="https://github.com/mari-albrici/SpaceflightNews-ReactTS-App" className="px-btn px-btn-theme" data-scroll-nav="4">
 											View Code{' '}
-										</Link>
+										</a>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-6 col-lg-5">
 								<div className="portfolio-img">
 									<img src={previewNetflix} title="p4" alt="p4" />
-									<Link to="https://github.com/mari-albrici/fs0123-Marianna-Albrici/tree/main/m2/w2/d5" className="gallery-link gallery-link-icon">
+									<a href="https://github.com/mari-albrici/fs0123-Marianna-Albrici/tree/main/m2/w2/d5" className="gallery-link gallery-link-icon">
 										<i className="fas fa-arrow-right"></i>
-									</Link>
+									</a>
 								</div>
 							</div>
 						</div>
+						<hr />
 						<div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 py-5 portfolio-box justify-content-around align-items-center flex-row-reverse">
 							<div className="col-md-6 col-lg-5">
 								<div className="portfolio-img">
 									<img src={previewBettoni} title="p2" alt="p2" />
-									<Link to="https://www.bettoniauto.com/" className="gallery-link gallery-link-icon">
+									<a href="https://www.bettoniauto.com/" className="gallery-link gallery-link-icon">
 										<i className="fas fa-arrow-right"></i>
-									</Link>
+									</a>
 								</div>
 							</div>
 							<div className="col-md-6 col-lg-5">
@@ -117,13 +120,14 @@ export default function Work() {
 										Updates, mailing list and SEO are part of daily management tasks.
 									</p>
 									<div className="btn-bar">
-										<Link to="https://www.fedoan.com/" className="px-btn px-btn-theme" data-scroll-nav="4">
+										<a href="https://www.fedoan.com/" className="px-btn px-btn-theme" data-scroll-nav="4">
 											View Project{' '}
-										</Link>
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
+						<hr />
 					</div>
 				</div>
 			</section>

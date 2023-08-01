@@ -94,7 +94,7 @@ export default function Contact() {
 							<ul className="contact-infos">
 								<li>
 									<div className="icon bg-1">
-										<i className="fas fa-envelope"></i>
+										<i className="fas fa-phone-alt"></i>
 									</div>
 									<div className="col">
 										<h5>Phone</h5>
@@ -103,7 +103,7 @@ export default function Contact() {
 								</li>
 								<li>
 									<div className="icon bg-2">
-										<i className="fas fa-phone-alt"></i>
+										<i className="fas fa-envelope"></i>
 									</div>
 									<div className="col">
 										<h5>Mail</h5>
